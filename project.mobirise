@@ -1,0 +1,658 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "3.8",
+    "uniqCompNum": 1,
+    "versionPublish": "3.9.0",
+    "name": "WiFI Supermercado - v4",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#ff5722",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      }
+    },
+    "favicon": "@PROJECT_PATH@/assets/images/favicon.png",
+    "noImageResize": "true",
+    "scrollAnimation": "true",
+    "google-analytics": "",
+    "publishType": "github",
+    "publishPath": "@PROJECT_PATH@",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "WiFi Supermercado - O melhor anúncio nas mãos do cliente.",
+        "meta_descr": "Uma nova plataforma de anuncios para produtos, marcas, promoções e parceiros comerciais. Saiba o perfil do seu cliente e direcione campanhas de marketing.",
+        "header_custom": "<!-- Google Tag Manager HEAD -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-PD9PFX');</script>\n<!-- End Google Tag Manager -->\n\n<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>\n\n<link rel=”canonical” href=”http://galata.com.br”/>\n<meta property=\"og:image\" content=\"http://galata.com.br/supermercado/assets/images/facebook-og-image.jpg\">\n<meta property=\"og:image:type\" content=\"image/jpeg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"628\">\n",
+        "footer_custom": "<!-- Google Tag Manager (noscript) BODY -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PD9PFX\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_styles": {
+            ".simplemenu": {
+              "background-color": "#2e3156",
+              "transition": "background 0.2s"
+            },
+            ".navbar-inverse": {
+              "background": "transparent"
+            },
+            ".navbar-fixed-top": {},
+            ".navbar-inverse.scrolled": {
+              "background-color": "#2e3156",
+              "transition": "background 0.2s"
+            },
+            ".navbar-toggle": {},
+            ".navbar-collapse": {},
+            ".collapse": {},
+            ".navbar-collapse.in": {},
+            ".nav li  a": {},
+            ".navbar-login": {},
+            ".navbar-right": {},
+            ".mbr-navbar__brand-img mbr-brand__img": {},
+            ".navbar-collapse.collapse.in": {
+              "background-color": "#2e3156",
+              "transition": "background 0.2s"
+            },
+            ".mbr-navbar__section": {},
+            ".navbar-toggle .icon-bar": {
+              "background": "#2e3156 !important"
+            },
+            ".navbarimg": {
+              "height": "110px",
+              "padding-top": "0px"
+            }
+          },
+          "_anchor": "menu2-4",
+          "_params": {
+            "logoSize": "6",
+            "color": "#2e3156",
+            "hamburgerColor": "#2e3156",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "brandName": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-wifi-supermercado.png",
+              "class": "navbarimg",
+              "height": 128,
+              "alt": "WiFi Supermercado",
+              "link": "index.html",
+              "title": "WiFi Supermercado",
+              "linkInNewWindow": false
+            }
+          },
+          "brandName": "<a data-app-btn=\"true\" data-app-selector=\".navbar-header a\" href=\"./index.html\" class=\"text-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "buttons": "<li nav-item=\"\"><a data-app-btn=\"true\" class=\"nav-link btn nav-item simplebutton mbr-title-font btn-default\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"#bottom\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-phone\"></span> CONTATO</a></li>",
+          "itemsRight": "<li class=\"dropdown1 nav-item\"><a class=\"text-white nav-link link\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#msg-box18-9\">COMO FUNCIONA</a><a class=\"nav-link link text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#msg-box18-1\">BENEFÍCIOS</a><a class=\"text-white nav-link link\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#msg-box18-0\">SOBRE</a><a class=\"text-white nav-link link\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#msg-box18-5\">PARCEIROS</a></li>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header12",
+          "_styles": {
+            "P": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_anchor": "header12-0",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "3",
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dreamstime-m-34957802-4-1.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.85,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showMedia": false
+          },
+          "title": "<b>O MELHOR ANÚNCIO&nbsp;NAS<br>MÃOS DO&nbsp;SEU CLIENTE</b>",
+          "text": "<b>Conheça o WiFi Supermercado: o melhor jeito de anunciar seus<br>produtos na mídia mais pedida do mercado publicitário.</b><br>",
+          "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"index.html#msg-box18-9\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">CONECTE PELO</span>GOOGLE +</a> <a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"index.html#msg-box18-9\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-facebook\"></i><span class=\"mbr-text-font\">CONECTE PELO</span>FACEBOOK</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive center-block",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/10.png"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box18",
+          "_styles": {
+            "H3": {
+              "color": "#2e3156",
+              "font-size": "36px"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "msg-box18-9",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "title": "COMO FUNCIONA",
+          "text": "<b>Veja como é fácil se conectar e conferir os anúncios com o Wifi Supermercado</b>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "H4": {
+              "color": "#2e3156",
+              "text-align": "center"
+            },
+            "P": {
+              "color": "#000000",
+              "text-align": "center",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            },
+            "SMALL": {
+              "color": "#000000",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "features3-5",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showMedia": true,
+            "showName": true,
+            "showOccupation": true,
+            "showTexts": true,
+            "showSocials": false
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/wi-fi-supermercado-passo1.png",
+              "class": "mbr-figure__img img-responsive",
+              "width": 600,
+              "link": "",
+              "alt": "WiFi Supermercado passo 1",
+              "title": "WiFi Supermercado passo 1",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
+            }
+          },
+          "title1": "Atenda melhor<br>o seu cliente",
+          "subtitle1": "<b>PASSO 1</b>",
+          "caption1": "Ele acessa o WiFi<br>Supermercado na loja.<br>",
+          "links1": "<li><a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a></li><li><a class=\"social fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a></li><li><a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a></li>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/wi-fi-supermercado-passo2.png",
+              "class": "mbr-figure__img img-responsive",
+              "width": 600,
+              "link": "",
+              "alt": "WiFi Supermercado passo 2",
+              "title": "WiFi Supermercado passo 2",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
+            }
+          },
+          "title2": "Promova os<br>seus produtos",
+          "subtitle2": "<b>PASSO 2</b>",
+          "caption2": "O cliente recebe anúncios ou promoções na tela do seu celular.<br>",
+          "links2": "<li><a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a></li><li><a class=\"social fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a></li><li><a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a></li>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/wi-fi-supermercado-passo3.png",
+              "class": "mbr-figure__img img-responsive",
+              "width": 600,
+              "link": "",
+              "alt": "WiFi Supermercado passo 3",
+              "title": "WiFi Supermercado passo 3",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
+            }
+          },
+          "title3": "Conheça o perfil<br>do seu cliente",
+          "subtitle3": "<b>PASSO 3</b>",
+          "caption3": "O acesso é feito pelo perfil<br>do Facebook ou Google.<br>",
+          "links3": "<li><a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a></li><li><a class=\"social fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a></li><li><a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a></li>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/wi-fi-supermercado-passo4.png",
+              "class": "mbr-figure__img img-responsive",
+              "width": 600,
+              "link": "",
+              "alt": "WiFi Supermercado passo 4",
+              "title": "WiFi Supermercado passo 4",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
+            }
+          },
+          "title4": "Direcione o cliente<br>para a sua página",
+          "subtitle4": "<b>PASSO 4</b>",
+          "caption4": "Conectado, o consumidor entra na página que você deseja divulgar.",
+          "links4": "<li><a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a></li><li><a class=\"social fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a></li><li><a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a></li>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box18",
+          "_styles": {
+            "H3": {
+              "font-size": "48px",
+              "color": "#ffffff"
+            },
+            "B": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "msg-box18-1",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#2e3156",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "title": "BENEFÍCIOS",
+          "text": "<b>Conheças nossas opções certeiras para o WiFi Supermercado</b>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            },
+            "H4": {
+              "color": "#ffffff"
+            },
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            }
+          },
+          "_anchor": "features1-3",
+          "_params": {
+            "elements": "4",
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "iconsColor": "@primaryColor",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#2e3156",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showIcons": true,
+            "icon1": "fa-bullhorn",
+            "showTitles": true,
+            "showText": true,
+            "icon2": "fa-line-chart",
+            "icon3": "fa-users",
+            "icon4": "fa-lock"
+          },
+          "title1": "Anúncios",
+          "text1": "Anuncie os melhores produtos, marcas, promoções e parceiros comerciais.",
+          "title2": "Estatísticas",
+          "text2": "Saiba o perfil do seu cliente através da ferramenta e direcione campanhas de marketing.",
+          "title3": "Acessos",
+          "text3": "Sem senhas ou formulários de cadastro.<br>",
+          "title4": "Segurança",
+          "text4": "Conexão segura com registro e<br>histórico de navegação por usuário de acordo com o Marco Civil da Internet."
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box18",
+          "_anchor": "msg-box18-0",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "4",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/R/AppData/Local/Mobirise.com/Mobirise/projectData/1.jpg",
+            "bgColor": "#e75830",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "title": "SOBRE A wiMAN",
+          "text": "A <b>wiMAN</b> é uma startup que tem o objetivo de criar a maior rede de WiFi compartilhado do mundo. A empresa está presente no Brasil desde maio de 2015, com sede no Rio de Janeiro e investimentos realizados pela <b>TIM Ventures</b>, área de capital corporativo do Grupo Telecom Itália, que também cuida da <b>TIM Brasil</b>.&nbsp;Com roteadores de <b>Social WiFi</b>, além de um app de compartilhamento de WiFi, premiado em 2015 como Google Best In Class, a empresa foca na solução inovadora de conectividade wifi para clientes, e hoje conta com mais de 3 milhões de usuários e 50 milhões de redes WiFi desbloqueadas.<br>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials2",
+          "_anchor": "testimonials2-4",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showIcon": true,
+            "showAuthorName": true
+          },
+          "text1_1": "<b>TIM LANÇA SOLUÇÃO INOVADORA DE CONECTIVIDADE</b><br><b>WI-FI PARA CLIENTES CORPORATIVOS</b><br>Para oferecer o serviço, a operadora adotou uma tecnologia inovadora desenvolvida pela wiMAN, startup de tecnologia que recebeu investimento da TIM Ventures, do Grupo Telecom Itália, controlador da TIM Brasil. O SDK é uma solução de compartilhamento público de WiFi que se posiciona no mercado como alternativa à tecnologia de Hotspots 2.0, sendo mais barata e eficaz. Essa tecnologia usa os roteadores que já estão instalados e integra com qualquer tipo de Smartphone Android ou iOS, respeitando as normas do Marco Civil da Internet.<br>",
+          "text1_2": "<a href=\"http://www.tim.com.br/pa/sobre-a-tim/sala-de-imprensa/press-releases/servico-de-valor-agregado-(vas)/tim-lanca-solucao-inovadora-de-conectividade-wi-fi-para-clientes-corporativos\" target=\"_blank\">LEIA MAIS</a>",
+          "text2_1": "<b>TIM VAI OFERECER PARA STARTUPS ACESSO<br>A BASE DE ASSINANTES E BIG DATA</b><br>Por enquanto, a operadora não tem a intenção de trazer para o país o TIM Ventures, área de corporate investment da Telecom Italia e que já aportou capital na empresa local wiMAN, um sistem de WiFi compartilhado.<br>",
+          "text2_2": "<a href=\"http://www.telesintese.com.br/tim-vai-oferecer-startups-acesso-assinantes-e-big-data/\" target=\"_blank\">LEIA MAIS</a>",
+          "text3_1": "<b>TIM OFERECE SERVIÇO DE WIFI VIA 4G PARA COMERCIANTES GRAÇAS A PARCERIA COM STARTUP</b><br>Para oferecer o serviço, a operadora adotou uma tecnologia desenvolvida pela startup de tecnologia wiMAN, que recebeu investimento da TIM Ventures, do Grupo Telecom Italia, controlador da TIM Brasil.<br>",
+          "text3_2": "<a href=\"http://www.tudocelular.com/planos/noticias/n80876/tim-planos-internet-wi-fi-4g.html\" target=\"_blank\">LEIA MAIS</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box18",
+          "_styles": {
+            "H3": {
+              "font-size": "46px",
+              "color": "#2e3156"
+            },
+            "P": {
+              "color": "#333333"
+            },
+            "B": {
+              "color": "#2e3156"
+            }
+          },
+          "_anchor": "msg-box18-5",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#dfdfdf",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "title": "PARCEIROS",
+          "text": "<b>Saiba mais sobre nossos integrantes e o que essas empresas mostram de soluções em tecnologia</b>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features7",
+          "_styles": {
+            ".iconbox": {
+              "background-color": "@primaryColor",
+              "border-color": "@primaryColor"
+            }
+          },
+          "_anchor": "features7-4",
+          "_params": {
+            "elements": "3",
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#dfdfdf",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": false
+          },
+          "title": "Client Style 1",
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/galata-logo.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true,
+              "link": "http://www.galata.com.br",
+              "alt": "Gálata",
+              "title": "Gálata - Soluções em Tecnologia",
+              "linkInNewWindow": true
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/wiman-logo.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true,
+              "link": "http://www.wimanbrasil.com.br/",
+              "alt": "Wiman Brasil",
+              "title": "Wiman Brasil",
+              "linkInNewWindow": true
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/netdigit-logo.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true,
+              "link": "http://www.netdigit.com.br",
+              "alt": "Netdigit ",
+              "title": "Netdigit Telecom",
+              "linkInNewWindow": true
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/4.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/5.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box9",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "bgImageRadio": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#e75830",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "ENTRE EM CONTATO",
+          "text": "<b>Quer saber mais sobre o WiFi Supermercado com um de nossos atendentes? Contate já!</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"#\" data-toolbar=\"-mbrBtnMove\">FORMULÁRIO</a>",
+          "_customCSS": "H2 {\n\tfont-size: 36px;\n}\n",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" style=\"background-color: rgb(231, 88, 48);\">\n    <div class=\"cta-wrap bg-primary\" style=\"padding-top: 80px; padding-bottom: 65px;\">\n        \n        <div class=\"container\">\n            <div class=\"col-md-9\">\n                <h2 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"21\">ENTRE EM CONTATO</h2>\n                <p class=\"mbr-editable-content\" code-editable-id=\"22\"><strong>Quer saber mais sobre o WiFi Supermercado com um de nossos atendentes!</strong></p>\n            </div>\n            <div class=\"col-md-3\">\n                <div><a class=\"btn mbr-title-font cta-btn btn-default mbr-editable-button typeform-share link\" href=\"https://formtool.typeform.com/to/xNZsGB\" data-mode=\"2\" target=\"_blank\" code-editable-id=\"23\">FORMULÁRIO</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_anchor": "msg-box9-6"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "DIV": {
+              "font-size": "10px"
+            }
+          },
+          "_anchor": "footer1-7",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#2e3156",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text": "WiFi Supermercado - O melhor anúncio nas mãos do cliente"
+        }
+      ]
+    }
+  }
+}
